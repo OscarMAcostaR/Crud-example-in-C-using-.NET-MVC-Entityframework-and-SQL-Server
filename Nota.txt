@@ -1,0 +1,59 @@
+
+
+Nota: 
+deben de cambiar la conexion a la base de datos para que les funcione en su equipo.
+
+esto es para que funcione el proyecto
+
+/******  Para la base de datos ******/
+crear una base de datos en sql 
+llamada Crud 
+Crear una tabla 
+En este caso de llama Tabla.
+con los campos 
+id de tipo int primary key autoincrementable
+nombre  varchar(50)
+correo  varchar(50)
+fecha_nacimiento  datatime
+
+
+
+
+/******  selecionar las primeras 1000 filas  ******/
+SELECT TOP 1000 [id]
+      ,[nombre]
+      ,[correo]
+      ,[fecha_nacimiento]
+  FROM [Crud].[dbo].[Tabla]
+
+
+
+///////////////////English translated///////////////
+
+
+
+Note:
+they must change the connection to the database for it to work on their computer.
+
+this is for the project to work
+
+/ ****** For database ****** /
+create a database in sql
+called Crud
+Create a table
+In this case it is called Table.
+with the fields
+id of type int primary key autoincrementing
+varchar name (50)
+varchar mail (50)
+date_birth datatime
+
+
+
+
+/ ****** select the first 1000 rows ****** /
+SELECT TOP 1000 [id]
+       ,[Name]
+       ,[mail]
+       ,[birth date]
+   FROM [Crud]. [Dbo]. [Table]
